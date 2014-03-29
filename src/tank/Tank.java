@@ -2,6 +2,10 @@ package tank;
 
 import java.util.Vector;
 
+import engine.GameEngine;
+import bullet.Bullet;
+import UI.GameStartUI;
+
 public class Tank extends Thread {
 	public int type;// 坦克类型 0:老巢 大于0：玩家坦克 小于0：敌方坦克（电脑）
 	public int x, y;// 坦克的当前位置

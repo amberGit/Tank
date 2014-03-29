@@ -1,4 +1,4 @@
-package tank;
+package item;
 
 public class DestroyableItem {
 	public int x, y;// 可破坏物品的坐标

@@ -1,6 +1,9 @@
-package tank;
+package bullet;
 
 import java.util.Vector;
+
+import engine.GameEngine;
+import tank.Tank;
 
 public class Bullet extends Thread {
 	public int v = 6;// ËÙ¶È

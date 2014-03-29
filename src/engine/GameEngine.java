@@ -1,7 +1,11 @@
-package tank;
+package engine;
 
 import java.awt.Point;
 import java.util.Vector;
+
+import tank.Tank;
+import ai.EnemyTankAI;
+import bullet.Bullet;
 
 public class GameEngine extends Thread {
 	public static Vector<Tank> tankArray = new Vector<Tank>();

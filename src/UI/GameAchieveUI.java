@@ -1,4 +1,4 @@
-package tank;
+package UI;
 
 public class GameAchieveUI {
 

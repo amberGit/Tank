@@ -1,4 +1,4 @@
-package tank;
+package UI;
 
 import java.awt.Dimension;
 import java.awt.FlowLayout;

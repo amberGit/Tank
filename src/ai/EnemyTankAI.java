@@ -1,6 +1,9 @@
-package tank;
+package ai;
 
 import java.util.Random;
+
+import tank.Tank;
+import engine.GameEngine;
 
 /**
  * 坦克人工智能

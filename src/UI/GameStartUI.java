@@ -1,4 +1,4 @@
-package tank;
+package UI;
 
 import java.awt.Dimension;
 import java.awt.FlowLayout;
@@ -11,6 +11,10 @@ import java.util.Vector;
 import javax.swing.ImageIcon;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
+
+import engine.GameEngine;
+import bullet.Bullet;
+import tank.Tank;
 
 /**
  * 玩游戏的界面
