@@ -1,18 +1,34 @@
 package tank;
 
-import java.io.File;
+import java.awt.Image;
 
+import util.Direction;
 import bullet.IBullet;
 
-public abstract class TankImpl implements ITank {
-	private IBullet bullet;
-	private int speed;
-	private int armor;
-	private static File imageFile;
+public  class TankImpl implements ITank {
+	public double x,y;
+	public IBullet bullet;
+	public double speed;
+	public double armor;
+	public static Image image;
+	public Direction direction ;
+	
+	public TankImpl(IBullet bullet){
+		this.bullet = bullet;
+	}
 	@Override
 	public void move() {
-		// TODO Auto-generated method stub
-
+		switch(direction){
+		case down: y+=speed;
+			break;
+		case left: x-=speed;
+			break;
+		case right:x+=speed;
+			break;
+		case up: y-=speed;
+			break;
+		
+		}
 	}
 
 	@Override
